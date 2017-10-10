@@ -1,0 +1,45 @@
+{
+  "keen": {
+    "projectId": "YOUR_KEEN_PROJECT_ID",
+    "writeKey": "YOUR_KEEN_WRITE_KEY"
+  },
+  "github": {
+    "accounts": [ "your-organization" ],
+    "token": "YOUR_GITHUB_ACCESS_TOKEN",
+    "events": [
+      "commit_comment",
+      "create",
+      "delete",
+      "deployment",
+      "deployment_status",
+      "fork",
+      "gollum",
+      "installation",
+      "installation_repositories",
+      "issue_comment",
+      "issues",
+      "label",
+      "marketplace_purchase",
+      "member",
+      "membership",
+      "milestone",
+      "organization",
+      "org_block",
+      "page_build",
+      "project_card",
+      "project_column",
+      "project",
+      "public",
+      "pull_request_review_comment",
+      "pull_request_review",
+      "pull_request",
+      "push",
+      "repository",
+      "release",
+      "status",
+      "team",
+      "team_add",
+      "watch"
+    ]
+  }
+}
