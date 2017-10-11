@@ -67,4 +67,22 @@ npm start
 
 The script will log the creation status for each webhook.
 
-Once the script completes, visit [https://github.com/organizations/`GITHUB_ORG`/settings/hooks](https://github.com/organizations/`GITHUB_ORG`/settings/hooks) for each organization to confirm all 33 webhooks were created successfully. Your Keen project should now contain a few initial events for each webhook as well. More data will begin streaming in as new git activity is recorded.
+Once the script completes, visit [https://github.com/organizations/`GITHUB_ORG`/settings/hooks](https://github.com/organizations/`GITHUB_ORG`/settings/hooks) for each organization to confirm all 33 webhooks were created successfully. Your Keen project should now contain a few initial events for each webhook as well.
+
+
+### Example Charts
+
+Data will begin streaming into your Keen project as new git activity is recorded. Now you can use Keen IO’s visualization tools like the Explorer, Dashboards, and Compute API to dig into granular workflow metrics.
+
+![image](https://user-images.githubusercontent.com/180438/31462249-f94b85ae-ae80-11e7-9ed5-90d173fece75.png)
+
+![image](https://user-images.githubusercontent.com/180438/31462252-fd328b4a-ae80-11e7-82d9-f08b944a94a6.png)
+
+![image](https://user-images.githubusercontent.com/180438/31462259-01247ff6-ae81-11e7-9d42-d11962e799b0.png)
+
+
+### Show and Tell!
+
+We’d love to hear from you! What metrics and charts would you like to see in a dashboard? What are challenges you have had with working with GitHub data? We’ve talked to a lot of open source maintainers, but we want to hear more from you.
+
+Feel free to open an issue or send an email to [opensource@keen.io](mailto:opensource@keen.io). Also, if you build anything with your GitHub data, we’d love to see it! ❤️
