@@ -1,0 +1,24 @@
+{
+  "name": "keen-github-analytics",
+  "version": "1.0.0",
+  "description": "GitHub Analytics by Keen IO",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keen/github-analytics.git"
+  },
+  "author": "Dustin Larimer <dustin@keen.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keen/github-analytics/issues"
+  },
+  "homepage": "https://github.com/keen/github-analytics#readme",
+  "devDependencies": {
+    "dotenv": "^4.0.0",
+    "octonode": "^0.8.0"
+  }
+}
