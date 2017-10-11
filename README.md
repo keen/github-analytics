@@ -1,6 +1,8 @@
 # GitHub Analytics with Keen IO
 
-Stream event data from your GitHub repos to a Keen project via GitHub's event stream webhooks. Check out [this post](https://blog.keen.io/tracking-github-data-with-keen-io-f130bcdec545) for more insight into this project.
+Stream event data from your GitHub repos to a Keen project via GitHub's event stream webhooks. 
+
+[Read more about this project here](https://blog.keen.io/tracking-github-data-with-keen-io-f130bcdec545).
 
 
 ### Installation
