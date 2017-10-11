@@ -63,4 +63,6 @@ Finally, run the following command to execute the script:
 npm start
 ```
 
-The script will log the creation status for each webhook. Once the script completes, visit [https://github.com/organizations/`GITHUB_ORG`/settings/hooks](https://github.com/organizations/`GITHUB_ORG`/settings/hooks) for each organization to confirm all 33 webhooks were created successfully. Your Keen project should now contain a few initial events for each webhook as well. More data will begin streaming in as new git activity is recorded.
+The script will log the creation status for each webhook.
+
+Once the script completes, visit [https://github.com/organizations/`GITHUB_ORG`/settings/hooks](https://github.com/organizations/`GITHUB_ORG`/settings/hooks) for each organization to confirm all 33 webhooks were created successfully. Your Keen project should now contain a few initial events for each webhook as well. More data will begin streaming in as new git activity is recorded.
