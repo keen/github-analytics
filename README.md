@@ -28,7 +28,7 @@ npm install
 
 ![image of Access page](access_page.png)
 
-If you are new to Keen IO and have not sent your first event yet, you can find your **Project ID** and **Write Key** in the at the bottom of the cURL section of the onboarding docs:
+**If you are new to Keen IO** and have not sent your first event yet, you can find your **Project ID** and **Write Key** in the at the bottom of the cURL section of the onboarding docs:
 
 ![image of cURL section](curl_section.png)
 
@@ -77,7 +77,7 @@ The script will log the creation status for each webhook.
 
 Once the script completes, visit [https://github.com/organizations/`GITHUB_ORG`/settings/hooks](https://github.com/organizations/`GITHUB_ORG`/settings/hooks) for each organization to confirm all 33 webhooks were created successfully. Your Keen project should now contain a few initial events for each webhook as well.
 
-If you are new to Keen IO and have not sent your first event yet, you can click the "Check for Data" button in the cURL section to confirm your GitHub webhooks have streamed to Keen. **Reminder:** Some event will need to happen within your GitHub organization to trigger a webhook.
+**If you are new to Keen IO** and have not sent your first event yet, you can click the "Check for Data" button in the cURL section to confirm your GitHub webhooks have streamed to Keen. **Reminder:** Some event will need to happen within your GitHub organization to trigger a webhook.
 
 ### Example Charts
 
