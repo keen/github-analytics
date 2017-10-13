@@ -26,6 +26,8 @@ npm install
 
 [Login to Keen IO to create a project](https://keen.io/login?s=gh_github-analytics) and grab the **Project ID** and **Write Key** from your project's **Access** page. 
 
+![image of Access page](access_page.png)
+
 If you are new to Keen IO and have not sent your first event yet, you can find your **Project ID** and **Write Key** in the at the bottom of the cURL section of the onboarding docs:
 
 ![image of cURL section](curl_section.png)
