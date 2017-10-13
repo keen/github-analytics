@@ -24,7 +24,13 @@ npm install
 
 ### Project ID & API Key
 
-[Login to Keen IO to create a project](https://keen.io/login?s=gh_github-analytics) and grab the **Project ID** and **Write Key** from your project's **Access** page. Copy these into the `KEEN_PROJECT_ID` and `KEEN_WRITE_KEY` fields of the `.env` file created previously, or set these environmental variables manually:
+[Login to Keen IO to create a project](https://keen.io/login?s=gh_github-analytics) and grab the **Project ID** and **Write Key** from your project's **Access** page. 
+
+If you are new to Keen IO and have not sent your first event yet, you can find your **Project ID** and **Write Key** in the at the bottom of the cURL section of the onboarding docs:
+
+![image of cURL section](curl_section.png)
+
+Copy these into the `KEEN_PROJECT_ID` and `KEEN_WRITE_KEY` fields of the `.env` file created previously, or set these environmental variables manually:
 
 ```ssh
 export KEEN_PROJECT_ID=YOUR_PROJECT_ID
@@ -69,6 +75,7 @@ The script will log the creation status for each webhook.
 
 Once the script completes, visit [https://github.com/organizations/`GITHUB_ORG`/settings/hooks](https://github.com/organizations/`GITHUB_ORG`/settings/hooks) for each organization to confirm all 33 webhooks were created successfully. Your Keen project should now contain a few initial events for each webhook as well.
 
+If you are new to Keen IO and have not sent your first event yet, you can click the "Check for Data" button in the cURL section to confirm your GitHub webhooks have streamed to Keen. **Reminder:** Some event will need to happen within your GitHub organization to trigger a webhook.
 
 ### Example Charts
 
