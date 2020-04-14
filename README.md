@@ -1,9 +1,6 @@
 # GitHub Analytics with Keen IO
 
-Stream event data from your GitHub repos to a Keen project via GitHub's event stream webhooks. 
-
-[Read more about this project here](https://blog.keen.io/tracking-github-data-with-keen-io-f130bcdec545).
-
+Stream event data from your GitHub repos to a Keen project via GitHub's event stream webhooks.
 
 ### Installation
 
@@ -24,13 +21,9 @@ npm install
 
 ### Project ID & API Key
 
-[Login to Keen IO to create a project](https://keen.io/login?s=gh_github-analytics) and grab the **Project ID** and **Write Key** from your project's **Access** page. 
+[Visit Keen.io to sign up or request a demo](https://keen.io/). After obtaining an account grab the **Project ID** and **Write Key** from your project's **Access** page. 
 
-![image of Access page](access_page.png)
-
-**If you are new to Keen IO** and have not sent your first event yet, you can find your **Project ID** and **Write Key** in the at the bottom of the cURL section of the onboarding docs:
-
-![image of cURL section](curl_section.png)
+**If you are new to Keen IO** and have not sent your first event yet, you can find your **Project ID** and **Write Key** in the access tab of the portal.
 
 Copy these into the `KEEN_PROJECT_ID` and `KEEN_WRITE_KEY` fields of the `.env` file created previously, or set these environmental variables manually:
 
